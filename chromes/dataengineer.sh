@@ -14,4 +14,6 @@ open -a "Google Chrome" https://github.com/bencarpena/dataengineering
 open -a "Google Chrome" https://github.com/bencarpena/coursera/tree/master/bdf/readme
 
 # Databricks
+open -a "Google Chrome" https://databricks.com/spark/getting-started-with-apache-spark
+open -a "Google Chrome" https://databricks.com/solutions/data-pipelines
 open -a "Google Chrome" https://community.cloud.databricks.com/
