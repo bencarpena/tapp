@@ -15,6 +15,7 @@ open -a "Google Chrome" https://www.kaggle.com/carpena/4-04-nestedlists
 # Teaching utilities
 open -a "Google Chrome" http://pythontutor.com/visualize.html#mode=edit
 open -a "Google Chrome" https://codehs.com/
+open -a "Google Chrome" https://app.schoology.com/register.php?type=instructor
 
 # SEFH Houston 
 open -a "Google Chrome" https://sefhouston.org/for-participants/ 
