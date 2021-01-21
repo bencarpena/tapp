@@ -25,3 +25,5 @@ open -a "Google Chrome" https://docs.microsoft.com/en-us/dotnet/csharp/tutorials
 open -a "Google Chrome" https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce
 open -a "Google Chrome" https://suzdalnitski.medium.com/oop-will-make-you-suffer-846d072b4dce
 
+# My TEALS Github
+open -a "Google Chrome" https://github.com/bencarpena/TEALS
