@@ -17,3 +17,6 @@ open -a "Google Chrome" https://github.com/bencarpena/coursera/tree/master/bdf/r
 open -a "Google Chrome" https://databricks.com/spark/getting-started-with-apache-spark
 open -a "Google Chrome" https://databricks.com/solutions/data-pipelines
 open -a "Google Chrome" https://community.cloud.databricks.com/
+
+# Stream Analytics
+open -a "Google Chrome" https://www.youtube.com/watch?v=NbGmyjgY0pU&t=187s
