@@ -1,6 +1,6 @@
 #!/bin/sh
 # ###################################
-#   Open Chrome : DE tabs
+#   Open Chrome : DE tabs 
 # ###################################
 
 open -na "Google Chrome" --args --new-window "https://realpython.com/python-data-engineer/"
