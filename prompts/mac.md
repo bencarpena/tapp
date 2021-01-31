@@ -11,8 +11,8 @@
 |cat /proc/cpuinfo|- Works only for Raspi /Linux|
 |ifconfig -a | grep inet | grep cast|- Get IP Address|
 |sysctl -n machdep.cpu.brand_string|- Get simplified Processor info|
-|sysctl -a | grep machdep.cpu |- Retrieve kernel state|
-|top -F -n0 -s3 | grep "CPU usage" |	- CPU Usage |
+|```sysctl -a | grep machdep.cpu``` |- Retrieve kernel state|
+|```top -F -n0 -s3 | grep "CPU usage"``` |	- CPU Usage |
 |system_profiler SPSoftwareDataType|- Get OS details|
 
 
