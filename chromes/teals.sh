@@ -30,3 +30,7 @@ open -a "Google Chrome" https://suzdalnitski.medium.com/oop-will-make-you-suffer
 
 # My TEALS Github
 open -a "Google Chrome" https://github.com/bencarpena/TEALS
+
+# Others
+open -a "Google Chrome" https://www.gutenberg.org/
+open -a "Google Chrome" https://www.desmos.com/
