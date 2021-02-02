@@ -2,9 +2,9 @@
 # @bencarpena 20210202
 
 dt=$(date '+%Y%m%d_%H%M%S');
-echo "==================="
+echo "=================================="
 echo "Commit tag: $dt"
-echo "==================="
+echo "=================================="
 
 git add .
 git commit -m $dt
