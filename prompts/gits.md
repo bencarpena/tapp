@@ -9,8 +9,15 @@ git pull
 
 git merge
 
+## toss out everything and get from master
+git reset --hard origin/master
+
+
 ## removing cached creds (MacOS)
 git config --global --unset user.password
+
+## which git repo
+git remove -v
 
 ## notes
 - 2FA now enabled
