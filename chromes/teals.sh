@@ -27,6 +27,7 @@ open -a "Google Chrome" https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet
 open -a "Google Chrome" https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming
 open -a "Google Chrome" https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce
 open -a "Google Chrome" https://suzdalnitski.medium.com/oop-will-make-you-suffer-846d072b4dce
+open -a "Google Chrome" https://towardsdatascience.com/how-does-python-work-6f21fd197888
 
 # My TEALS Github
 open -a "Google Chrome" https://github.com/bencarpena/TEALS
