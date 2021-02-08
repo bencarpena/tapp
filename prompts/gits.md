@@ -12,6 +12,14 @@ git merge
 ## toss out everything and get from master
 git reset --hard origin/master
 
+## git pull and discard local changes
+If you want remove all local changes - including files that are untracked by git - from your working copy, simply stash them:
+
+git stash push --include-untracked
+
+If you don't need them anymore, you now can drop that stash:
+
+git stash drop
 
 ## removing cached creds (MacOS)
 git config --global --unset user.password
