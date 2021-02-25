@@ -11,3 +11,4 @@ open -a "Google Chrome" https://ieee-sa.imeetcentral.com/s2esc/folder/WzIwLDEyMD
 open -a "Google Chrome" https://www.ieee.org/
 open -a "Google Chrome" https://standards.ieee.org/project/802_3cu.html
 open -a "Google Chrome" https://development.standards.ieee.org/myproject-web/app#managepars
+open -a "Google Chrome" https://console.openearth.community/users/edit
