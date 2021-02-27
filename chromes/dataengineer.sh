@@ -23,3 +23,6 @@ open -a "Google Chrome" https://www.youtube.com/watch?v=NbGmyjgY0pU&t=187s
 
 # Asynch
 open -a "Google Chrome" https://github.com/slackapi/python-slack-sdk/pull/662
+
+# Twitch
+open -a "Google Chrome" https://www.twitch.tv/aws #aws
