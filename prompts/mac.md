@@ -16,6 +16,7 @@
 |system_profiler SPSoftwareDataType|- Get OS details|
 |Spotlight Search keyboard shortcut|command + space|
 |Lock Mac|Ctrl+Shift+Power|
+|Zooming in/out| Ctrl+Option 8 or + or -|
 
 
 
