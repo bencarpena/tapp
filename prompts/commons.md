@@ -1,5 +1,5 @@
 # Common commands I use
-# ---------------------------
+
 
 ## Package installs and management
 - `sudo apt-get update`
