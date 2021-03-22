@@ -113,3 +113,16 @@ https://www.youtube.com/watch?v=Oj_6SMktlso&feature=youtu.be
 
 ?	iwgetid
 	= return SSID my Raspi is connected to
+
+?	Get Performance of Raspi
+	`vcgencmd get_throttled`
+	>Notes:
+	0: under-voltage
+	1: arm frequency capped
+	2: currently throttled 
+	16: under-voltage has occurred
+	17: arm frequency capped has occurred
+	18: throttling has occurred
+	under-voltage occurs when voltage drops below 4.63V. The Pi is throttled
+	arm frequency capped occurs with temp > 80'C
+	over-temperature occurs with temp > 85'C. The Pi is throttled
