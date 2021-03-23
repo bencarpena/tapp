@@ -32,5 +32,11 @@ git remove -v
 - Use PAT (Personal Access Token) as pwd
 
 
+## rebase history
+git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch files/workday workday_workers_20210322_233215_393292.txt' HEAD
+
+git pull --rebase
+
+
 # useful urls
 - https://medium.com/@ginnyfahs/github-error-authentication-failed-from-command-line-3a545bfd0ca8
