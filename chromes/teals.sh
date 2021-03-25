@@ -20,6 +20,7 @@ open -a "Google Chrome" https://app.schoology.com/register.php?type=instructor
 open -a "Google Chrome" https://app.schoology.com/course/2732996437/grades
 open -a "Google Chrome" https://drive.google.com/drive/folders/13lS5Tv_moWYNrW368pAErYhRrBmdNCfb
 open -a "Google Chrome" https://earsketch.gatech.edu/
+open -a "Google Chrome" https://makeymakey.com/
 
 # SEFH Houston 
 open -a "Google Chrome" https://sefhouston.org/for-participants/ 
