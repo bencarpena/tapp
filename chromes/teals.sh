@@ -21,6 +21,7 @@ open -a "Google Chrome" https://app.schoology.com/course/2732996437/grades
 open -a "Google Chrome" https://drive.google.com/drive/folders/13lS5Tv_moWYNrW368pAErYhRrBmdNCfb
 open -a "Google Chrome" https://earsketch.gatech.edu/
 open -a "Google Chrome" https://makeymakey.com/
+open -a "Google Chrome" https://docs.google.com/document/d/1zNciZwoCQbG31K-4VQzPv6XZpZjsWLGy3HrUWSr-Hxk/edit #earsketch
 
 # SEFH Houston 
 open -a "Google Chrome" https://sefhouston.org/for-participants/ 
