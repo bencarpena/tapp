@@ -15,5 +15,8 @@ open -a "Google Chrome" https://www.youtube.com/watch?v=NbGmyjgY0pU&t=187s
 open -a "Google Chrome" https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-mqtt-support
 open -a "Google Chrome" https://docs.microsoft.com/en-us/azure/iot-fundamentals/
 
+# Certs
+open -a "Google Chrome" https://wsr.pearsonvue.com/testtaker/registration/Dashboard/MICROSOFT
+
 
 
