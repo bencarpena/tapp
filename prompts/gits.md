@@ -34,6 +34,8 @@ git remove -v
 
 ## rebase history
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch files/workday workday_workers_20210322_233215_393292.txt' HEAD
+### force option
+git filter-branch --index-filter -f 'git rm -r --cached --ignore-unmatch files/workday workday_workers_20210322_233215_393292.txt' HEAD
 
 git pull --rebase
 
