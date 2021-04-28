@@ -17,6 +17,8 @@
 |Spotlight Search keyboard shortcut|command + space|
 |Lock Mac|Ctrl+Shift+Power|
 |Zooming in/out| Ctrl+Option 8 or + or -|
+|csc hash.cs | compile C# code and create .exe|
+|mono hash.exe | run .exe from terminal|
 
 
 
