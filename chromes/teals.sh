@@ -22,6 +22,8 @@ open -a "Google Chrome" https://drive.google.com/drive/folders/13lS5Tv_moWYNrW36
 open -a "Google Chrome" https://earsketch.gatech.edu/
 open -a "Google Chrome" https://makeymakey.com/
 open -a "Google Chrome" https://docs.google.com/document/d/1zNciZwoCQbG31K-4VQzPv6XZpZjsWLGy3HrUWSr-Hxk/edit #earsketch
+open -a "Google Chrome" https://classkick.com/
+
 
 # SEFH Houston 
 open -a "Google Chrome" https://sefhouston.org/for-participants/ 
