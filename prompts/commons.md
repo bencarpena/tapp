@@ -136,3 +136,7 @@
 	under-voltage occurs when voltage drops below 4.63V. The Pi is throttled
 	arm frequency capped occurs with temp > 80'C
 	over-temperature occurs with temp > 85'C. The Pi is throttled
+
+## Install and run MySQL on Raspi
+- Reference: https://pimylifeup.com/raspberry-pi-mysql/
+- sudo mysql -u root -p
