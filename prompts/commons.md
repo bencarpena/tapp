@@ -35,6 +35,8 @@
 - `gpio readall`
 -  https://pimylifeup.com/raspberry-pi-gpio/
 
+## Make script executable
+- chmod +x <yourscript.py>
 
 ##	Shell script header
 - `!/bin/sh`
@@ -140,3 +142,5 @@
 ## Install and run MySQL on Raspi
 - Reference: https://pimylifeup.com/raspberry-pi-mysql/
 - sudo mysql -u root -p
+
+
