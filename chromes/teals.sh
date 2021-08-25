@@ -15,7 +15,7 @@ open -a "Google Chrome" https://www.kaggle.com/carpena/4-04-nestedlists
 # Teaching utilities
 open -a "Google Chrome" http://pythontutor.com/visualize.html#mode=edit
 open -a "Google Chrome" https://codehs.com/
-open -a "Google Chrome" https://repl.it/
+open -a "Google Chrome" https://repl.it/ #online code IDE
 open -a "Google Chrome" https://app.schoology.com/register.php?type=instructor
 open -a "Google Chrome" https://app.schoology.com/course/2732996437/grades
 open -a "Google Chrome" https://drive.google.com/drive/folders/13lS5Tv_moWYNrW368pAErYhRrBmdNCfb
