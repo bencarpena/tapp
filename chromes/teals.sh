@@ -30,7 +30,7 @@ open -a "Google Chrome" https://www.jdoodle.com/online-java-compiler/
 
 # Teaching utilities (Java)
 open -a "Google Chrome" https://csawesome.runestone.academy/runestone/books/published/csawesome/index.html
-open -a "Google Chrome" https://sites.google.com/view/csawesome/teacher-materials/unit-1?authuser=0
+open -a "Google Chrome" https://sites.google.com/view/csawesome/teacher-materials/unit-1?authuser=0 #main library of activities
 open -a "Google Chrome" https://apcentral.collegeboard.org/pdf/ap-computer-science-a-course-and-exam-description.pdf?course=ap-computer-science-a
 
 # SEFH Houston 
