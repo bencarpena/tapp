@@ -39,6 +39,11 @@ git filter-branch --index-filter -f 'git rm -r --cached --ignore-unmatch files/w
 
 git pull --rebase
 
+## rebase (ghost large file; annoying)
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch brightoaks/fullsite_backup/backup-12.22.2010_23-03-18_thebrigh.tar.gz' --prune-empty --tag-name-filter cat -- --all
+
+git pull --rebase
+
 
 # useful urls
 - https://medium.com/@ginnyfahs/github-error-authentication-failed-from-command-line-3a545bfd0ca8

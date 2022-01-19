@@ -20,6 +20,8 @@
 |csc hash.cs | compile C# code and create .exe|
 |mono hash.exe | run .exe from terminal|
 |less +123 -N filename.txt | read specific line numbers from terminal|
+|cd ~/.Trash | list all files that are deleted|
+|diskutil list | list SSD usage|
 
 
 
