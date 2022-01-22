@@ -16,3 +16,6 @@ rmdir /s FolderName
 
 ## List files in tree format
 tree /f
+
+## Delete folder and everything in it
+del * /s /q
