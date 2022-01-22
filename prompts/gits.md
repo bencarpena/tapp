@@ -47,3 +47,16 @@ git pull --rebase
 
 # useful urls
 - https://medium.com/@ginnyfahs/github-error-authentication-failed-from-command-line-3a545bfd0ca8
+
+
+## merge adf_collaborate to main
+git clone <repo>
+git branch 
+git checkout main
+git merge adf_collaborate
+>Error
+git pull origin adf_collaborate --allow-unrelated-histories
+git status
+sh gitupload.sh
+
+
