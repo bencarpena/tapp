@@ -18,4 +18,7 @@ rmdir /s FolderName
 tree /f
 
 ## Delete folder and everything in it
+:: delete all files first
 del * /s /q
+:: delete root folder and everything in it; in this case What folder will be deleted and everything in it
+rmdir /s /q C:\FolderMain\What
