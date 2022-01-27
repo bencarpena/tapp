@@ -22,3 +22,6 @@ tree /f
 del * /s /q
 :: delete root folder and everything in it; in this case What folder will be deleted and everything in it
 rmdir /s /q C:\FolderMain\What
+
+## Display only files in a folder
+dir /b /a-d
