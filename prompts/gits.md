@@ -65,3 +65,9 @@ sh gitupload.sh
 git fetch --all
 git reset --hard origin/main
 git pull
+
+## Please tell me who you are
+`git config --global user.email "someone@gmail.com"`
+Or if you want only for local repo
+`git config user.email "someone@gmail.com"`
+Then proceed with git ops
