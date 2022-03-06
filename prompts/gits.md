@@ -61,6 +61,7 @@ sh gitupload.sh
 
 
 ## overwrite local changes
+>Scenario: I worked on my personal Mac. I then want to get the changes from Git into my work Mac.
 git fetch --all
 git reset --hard origin/main
 git pull
