@@ -71,3 +71,16 @@ git pull
 Or if you want only for local repo
 `git config user.email "someone@gmail.com"`
 Then proceed with git ops
+
+
+## Ignoring files
+From local repo:
+`touch .gitignore` 
+
+Open .gitignore and enter files to ignore:
+- https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+- https://gist.github.com/octocat/9257657
+
+Example:
+`utils/lihim.py`
+`*.class`
