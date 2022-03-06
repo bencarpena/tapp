@@ -60,3 +60,7 @@ git status
 sh gitupload.sh
 
 
+## overwrite local changes
+git fetch --all
+git reset --hard origin/main
+git pull
