@@ -84,3 +84,6 @@ Open .gitignore and enter files to ignore:
 Example:
 `utils/lihim.py`
 `*.class`
+
+>But if file is already checked in and you want to ignore it, run:
+`git rm --cached FILENAME`
