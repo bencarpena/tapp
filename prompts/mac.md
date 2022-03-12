@@ -22,6 +22,7 @@
 |less +123 -N filename.txt | read specific line numbers from terminal|
 |cd ~/.Trash | list all files that are deleted|
 |diskutil list | list SSD usage|
+|cp -R foldername dest | copy folder and contents|
 
 
 
