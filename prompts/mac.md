@@ -23,6 +23,7 @@
 |cd ~/.Trash | list all files that are deleted|
 |diskutil list | list SSD usage|
 |cp -R foldername dest | copy folder and contents|
+|get folder size | du -sh <path to folder>|
 
 
 
