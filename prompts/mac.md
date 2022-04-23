@@ -9,6 +9,7 @@
 |uname -a|- Display quick info on M1|
 |ps -ef |- My Go-To move to get process details|
 |cat /proc/cpuinfo|- Works only for Raspi /Linux|
+|cat /etc/os-release|- Get OS version; Works only for Raspi /Linux|
 |ifconfig -a | grep inet | grep cast|- Get IP Address|
 |sysctl -n machdep.cpu.brand_string|- Get simplified Processor info|
 |```sysctl -a | grep machdep.cpu``` |- Retrieve kernel state|
