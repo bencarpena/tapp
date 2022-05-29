@@ -144,3 +144,6 @@
 - sudo mysql -u root -p
 
 
+## List all installed packages on Raspi
+- apt-cache pkgnames
+- dpkg-query -l
