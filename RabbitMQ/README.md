@@ -17,8 +17,15 @@ rabbitmqctl add_user newadmin s0m3p4ssw0rd
 rabbitmqctl set_user_tags newadmin administrator
 rabbitmqctl set_permissions -p / newadmin ".*" ".*" ".*"
 
+
+rabbitmqctl add_user rogeradmin h0endervangers
+rabbitmqctl set_user_tags rogeradmin administrator
+rabbitmqctl set_permissions -p / rogeradmin ".*" ".*" ".*"
+
+
 ### Visit web interface
 http://raspberrypi:15672/
+http://192.168.0.20:15672/
 
 Recommend you delete the ‘guest’ account.
 
