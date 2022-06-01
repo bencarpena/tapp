@@ -113,7 +113,7 @@
 - `cat /etc/rpi-issue`
 - get OS details?
 
-##	cat /etc/os-release
+##	Get OS version raspi 
 - `cat /etc/os-release`
 - get OS details of Raspi
 
