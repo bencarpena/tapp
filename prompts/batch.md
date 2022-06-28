@@ -25,3 +25,11 @@ rmdir /s /q C:\FolderMain\What
 
 ## Display only files in a folder
 dir /b /a-d
+
+## Automate Python in Windows
+1. Create batch file
+2. Embed python call / invocation in batch file
+3. Schedule at task scheduler
+  - Parameters: 
+  - [Program Script] C:\windows\system32\cmd.exe
+  - [Arguments] /C D:\BitsAndGitsEHSS\hungrypython\sureview\automation\ds40101-sureview-us.bat
