@@ -157,7 +157,7 @@
 ## Connect Raspi to WiFi
 - Config @ altair --> /etc/wpa_supplicant/wpa_supplicant.conf
 - More notes: https://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
-`
+```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=US
@@ -167,4 +167,4 @@ network={
 	psk="Kobe33643"
 	key_mgmt=WPA-PSK
 }
-`
+```
