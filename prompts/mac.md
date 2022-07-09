@@ -25,6 +25,8 @@
 |diskutil list | list SSD usage|
 |cp -R foldername dest | copy folder and contents|
 |get folder size | du -sh <path to folder>|
+|execute python script in background | nohup python /path/to/test.py & |
+|execute python script in background with log file | nohup python /path/to/test.py > output.log & |
 
 
 
