@@ -153,3 +153,18 @@
   - http://192.168.0.20:15672/
 - Install notes: http://pont.ist/rabbit-mq/
   
+
+## Connect Raspi to WiFi
+- Config @ altair --> /etc/wpa_supplicant/wpa_supplicant.conf
+- More notes: https://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
+`
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=US
+
+network={
+	ssid="alphacentauri24"
+	psk="Kobe33643"
+	key_mgmt=WPA-PSK
+}
+`
