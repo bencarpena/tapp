@@ -157,9 +157,10 @@
 ## Connect Raspi to WiFi
 - Config @ altair --> /etc/wpa_supplicant/wpa_supplicant.conf
 - More notes: https://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
+  - Start here: https://www.youtube.com/watch?v=yn59qX-Td3E
   - https://aallan.medium.com/setting-up-a-headless-raspberry-pi-zero-3ded0b83f274
   - https://raspberrypi.stackexchange.com/questions/11631/how-to-setup-multiple-wifi-networks 
-  - https://www.youtube.com/watch?v=yn59qX-Td3E
+
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -167,8 +168,22 @@ country=US
 
 network={
 	ssid="alphacentauri24"
-	psk="yerpwdhere"
+	psk="Kobe33643"
 	key_mgmt=WPA-PSK
 	priority=1
+}
+
+network={
+	ssid="tesla-guest"
+	key_mgmt=NONE
+	id_str="tesla-guest"
+	priority=2
+}
+
+network={
+	ssid="Tesla Guest"
+	key_mgmt=NONE
+	id_str="Tesla Guest"
+	priority=3
 }
 ```
