@@ -159,6 +159,7 @@
 - More notes: https://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
   - https://aallan.medium.com/setting-up-a-headless-raspberry-pi-zero-3ded0b83f274
   - https://raspberrypi.stackexchange.com/questions/11631/how-to-setup-multiple-wifi-networks 
+  - https://www.youtube.com/watch?v=yn59qX-Td3E
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -168,5 +169,6 @@ network={
 	ssid="alphacentauri24"
 	psk="yerpwdhere"
 	key_mgmt=WPA-PSK
+	priority=1
 }
 ```
