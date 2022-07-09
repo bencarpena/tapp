@@ -186,4 +186,15 @@ network={
 	id_str="Tesla Guest"
 	priority=3
 }
+
+network={
+	ssid="MobileAP"
+	key_mgmt=WPA-PSK
+	proto=RSN
+	psk="yersuperpwdhere"
+	pairwise=CCMP
+	group=CCMP
+	auth_alg=OPEN
+	priority=5
+}
 ```
