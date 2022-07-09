@@ -147,3 +147,9 @@
 ## List all installed packages on Raspi
 - apt-cache pkgnames
 - dpkg-query -l
+
+## RabbitMQ
+- Installed at alphard
+  - http://192.168.0.20:15672/
+- Install notes: http://pont.ist/rabbit-mq/
+  
