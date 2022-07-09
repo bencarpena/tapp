@@ -168,7 +168,7 @@ country=US
 
 network={
 	ssid="alphacentauri24"
-	psk="Kobe33643"
+	psk="yerpwdhere"
 	key_mgmt=WPA-PSK
 	priority=1
 }
