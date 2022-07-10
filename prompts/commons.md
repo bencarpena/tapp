@@ -198,3 +198,8 @@ network={
 	priority=5
 }
 ```
+
+## Allow only root to read and edit a file
+>File is /Users/benjcarpena/OneDrive/_Projects/Projects/hashes/hash4df/keyvault/darkhold.conf
+- Execute `chmod 600 darkhold.conf`
+- Then change ownership `chown root darkhold.conf`
