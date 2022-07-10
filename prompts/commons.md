@@ -203,3 +203,4 @@ network={
 >File is /Users/benjcarpena/OneDrive/_Projects/Projects/hashes/hash4df/keyvault/darkhold.conf
 - Execute `chmod 600 darkhold.conf`
 - Then change ownership `chown root darkhold.conf`
+- NOTE : ugo 421
