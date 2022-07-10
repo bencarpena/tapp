@@ -204,3 +204,11 @@ network={
 - Execute `chmod 600 darkhold.conf`
 - Then change ownership `chown root darkhold.conf`
 - NOTE : ugo 421
+
+## Run C# code in raspi
+- Install mono
+- `sudo apt update && sudo apt upgrade`
+- `sudo apt install mono-complete`
+- Compile your C# code:
+  - `csc mycode.cs`
+  - Now run it : `mono mycode.exe`
