@@ -221,7 +221,6 @@ network={
 	```
 	Matching Defaults entries for bcarpena on sjc04p1ihsap001:
     env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
-
 User bcarpena may run the following commands on sjc04p1ihsap001:
     (ALL) ALL
 	```
