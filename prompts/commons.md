@@ -212,3 +212,16 @@ network={
 - Compile your C# code:
   - `csc mycode.cs`
   - Now run it : `mono mycode.exe`
+
+  ## sudoers
+  - Run `compgen -u` to list all users in the server; can also do `cat /etc/passwd`
+  - List all sudoers `grep '^sudo:.*$' /etc/group | cut -d: -f4`
+  - Find if a user has sudo privileges `sudo -l -U bcarpena`
+    - Sample output:
+	```
+	Matching Defaults entries for bcarpena on sjc04p1ihsap001:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User bcarpena may run the following commands on sjc04p1ihsap001:
+    (ALL) ALL
+	```
