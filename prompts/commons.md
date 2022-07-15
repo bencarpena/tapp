@@ -224,3 +224,6 @@ network={
 	User bcarpena may run the following commands on sjc04p1ihsap001:
     (ALL) ALL
 	```
+
+## Run task in background
+sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/hungrypythonsureview.us.py &
