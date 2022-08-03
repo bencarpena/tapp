@@ -28,7 +28,7 @@
 |execute python script in background | nohup python /path/to/test.py & |
 |execute python script in background | python3 /pathtopython/this.py > /dev/null & |
 |execute python script in background with log file | nohup python /path/to/test.py > output.log & |
-
+|copy folder and files | `rsync -a /Users/bcarpena/_Projects/AQI.01/ /Users/bcarpena/_Projects/AQI`|
 
 
 
