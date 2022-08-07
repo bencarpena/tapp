@@ -27,7 +27,7 @@
 |get folder size | du -sh <path to folder>|
 |execute python script in background | nohup python /path/to/test.py & |
 |execute python script in background | python3 /pathtopython/this.py > /dev/null & |
-|execute python script in background with log file | nohup python /path/to/test.py > output.log & |
+|execute python script in background with log file; ignore stdout and stderr| nohup python /path/to/test.py > output.log > 2>&1 & |
 |copy folder and files | `rsync -a /Users/bcarpena/_Projects/AQI.01/ /Users/bcarpena/_Projects/AQI`|
 
 
