@@ -29,6 +29,8 @@
 |execute python script in background | python3 /pathtopython/this.py > /dev/null & |
 |execute python script in background with log file; ignore stdout and stderr| nohup python /path/to/test.py > output.log > 2>&1 & |
 |copy folder and files | `rsync -a /Users/bcarpena/_Projects/AQI.01/ /Users/bcarpena/_Projects/AQI`|
+|get cpu info| cat /proc/cpuinfo|
+|get memory info | free -h|
 
 
 
