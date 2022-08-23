@@ -31,6 +31,7 @@
 |copy folder and files | `rsync -a /Users/bcarpena/_Projects/AQI.01/ /Users/bcarpena/_Projects/AQI`|
 |get cpu info| cat /proc/cpuinfo|
 |get memory info | free -h|
+|check who ran sudo| sudo cat /var/log/auth.log|
 
 
 
