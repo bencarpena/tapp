@@ -32,6 +32,9 @@
 |get cpu info| cat /proc/cpuinfo|
 |get memory info | free -h|
 |check who ran sudo| sudo cat /var/log/auth.log|
+|check service status via `systemctl`| systemctl status cron|
+|check service status via `service`|sudo service smbd status|
+|restart service via `service`|sudo service smbd restart|
 
 
 
