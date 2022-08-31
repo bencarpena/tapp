@@ -35,6 +35,7 @@
 |check service status via `systemctl`| systemctl status cron|
 |check service status via `service`|sudo service smbd status|
 |restart service via `service`|sudo service smbd restart|
+|read line number 28| sed '28!d' df_output.csv|
 
 
 
