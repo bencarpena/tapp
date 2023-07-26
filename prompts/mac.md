@@ -37,6 +37,7 @@
 |restart service via `service`|sudo service smbd restart|
 |read line number 28| sed '28!d' df_output.csv|
 | find string in multiple files | find . -type f -name "*" -exec grep 'Realm' {} \; |
+| create dynamic link | ln -s /Users/benjcarpena/Library/CloudStorage/OneDrive-Personal OneDrive |
 
 
 
