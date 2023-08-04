@@ -102,4 +102,4 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 > Run : `gh auth login`
 
 
-![Alt text](image.png)
+![run gh and follow on-screen instructions](img/gh-image.png)
