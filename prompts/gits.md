@@ -90,7 +90,7 @@ Example:
 
 
 ## git authentication with PAT (bypass prompts at Raspi)
-> Notes: 
+> Notes: <br>
 `type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
 && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
