@@ -117,4 +117,4 @@ git config --global credential.useHttpPath true
 
 ## Fix git commit error master--
 
-![Modify git creds at keychain](img/git-osxkeychain.png.png)
+![Modify git creds at keychain](img/git-osxkeychain.png)
