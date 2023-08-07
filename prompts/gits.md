@@ -114,3 +114,7 @@ ssh -vT git@github.com
 
 ## Clear and Refresh all creds globally
 git config --global credential.useHttpPath true 
+
+## Fix git commit error master--
+
+![Modify git creds at keychain](img/git-osxkeychain.png.png)
