@@ -111,3 +111,6 @@ git config -l
 
 ## who is accessing github via terminal
 ssh -vT git@github.com
+
+## Clear and Refresh all creds globally
+git config --global credential.useHttpPath true 
