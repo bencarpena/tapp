@@ -31,8 +31,13 @@
 - https://pinout.xyz/
 
 ## Check if crontab is running
+systemctl status cron
+
 
 ## Check CPU speed on raspi
+- Current clock speed: `cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq`
+- Minimum clock speed: `cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq`
+- Maximum clock speed: `cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq`
 	
 ## GPIO
 - `gpio -v`
