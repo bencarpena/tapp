@@ -105,7 +105,6 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 ![run gh and follow on-screen instructions](img/gh-image.png)
 
 
-
 ## Get logged in user
 git config -l
 

@@ -62,8 +62,32 @@ systemctl status cron
 - `free -m`
 - `free -h`
 
-##	Check CPU info 
+##	Check CPU info and what version of Raspi do I have
 - `cat /proc/cpuinfo`
+- or ` cat /proc/cpuinfo | grep 'Revision' | awk '{print $3}' | sed 's/^1000//'`
+- Complete list of hardware here: https://elinux.org/RPi_HardwareHistory
+
+| Revision | Release Date | Model | Memory | Notes |
+|---|---|---|---|---|
+|a020d3 | Q1 2018| 3 Model B+ | 1 GB | Mfg by Sony; alphard and alphacentauri|
+|a22082 | Q1 2016| 3 Model B | 1 GB | Mfg by Embest; arcturus|
+|9000c1| Q1 2017 | Zero W | 512 MB | Mfg by Sony; altair|
+|c03115| Q1 2022| 4 Model B | 4 GB| Mfg by Sony; apollo|
+
+
+## Check if my Raspi is running 32-bit OS or 64-bit + Kernel version
+- [Reference](https://forums.raspberrypi.com/viewtopic.php?t=251721#:~:text=Run%20%22uname%20%2Dm%22%20to,then%20it%20is%2032%20bit.)
+- `uname -a` or `uname -m` 
+    - returns armv71 then it is **32 bit**
+    - aarch64 means it is **64 bit**
+
+## Check version of Debian 
+- https://ozzmaker.com/check-raspberry-software-hardware-version-command-line/
+- `cat /etc/debian_version`
+
+## Check OS release notes
+- `cat /etc/os-release`
+
 
 ##	BME280
 - https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/pinouts
