@@ -117,3 +117,12 @@ git config --global credential.useHttpPath true
 ## Fix git commit error master--
 
 ![Modify git creds at keychain](img/git-osxkeychain.png)
+
+
+## Add existing folder to git
+cd <localdir>
+git init
+git add .
+git commit -m 'message'
+git remote add origin https://github.com/bencarpena/LRMidland.git
+git push -u origin main
