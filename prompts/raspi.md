@@ -260,3 +260,8 @@ network={
 
 ## Run task in background
 sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/hungrypythonsureview.us.py &
+
+## Install mono : execute .exe
+sudo apt update && sudo apt upgrade
+sudo apt install mono-complete
+mono
