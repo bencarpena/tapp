@@ -265,3 +265,16 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 sudo apt update && sudo apt upgrade
 sudo apt install mono-complete
 mono
+
+
+## Setup apollo for analytics workload
+> Must be Python 3.9++
+- Install the following:
+     1. pip3 install scikit-learn
+     2. pip3 install slackclient
+     3. pip3 install seaborn
+     4. [install mono] sudo apt install mono-complete
+     5. Install pyodbc
+          - sudo apt-get install unixodbc-dev
+          - pip3 install pyodbc
+     6. pip3 install sqlalchemy
