@@ -234,4 +234,5 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 
 
 ## Grep for specific text and avoid `binary file matches` shit
-grep -nra "dt local" hagrid.log > hagrid.cleaned.log 
+`grep -nra "dt local" hagrid.log > hagrid.cleaned.log` : with line numbers
+`more hagrid.old.log | grep -a "dt local" > hagrid.log` : clean; no line numbers
