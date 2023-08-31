@@ -149,6 +149,9 @@ systemctl status cron
 ##	Get OS version raspi 
 - `cat /etc/os-release`
 - get OS details of Raspi
+- Debian or Raspi OS? Raspi is based on Debian
+	- `cat /etc/apt/sources.list.d/raspi.list`
+	- if output = deb http://archive.raspberrypi.org/debian/ bullseye main; then you're running Raspberry Pi OS Bullseye
 
 ##	ifconfig -a | grep inet | grep cast
 - `ifconfig -a | grep inet | grep cast`
@@ -278,3 +281,53 @@ mono
           - sudo apt-get install unixodbc-dev
           - pip3 install pyodbc
      6. pip3 install sqlalchemy
+
+
+## Setup FreeTDS on apollo
+https://stackoverflow.com/questions/44969924/querying-mssql-server-2012-from-a-raspberry-pi-3-using-python-freetds-and-pyodb
+
+sudo apt-get install unixodbc
+sudo apt-get install unixodbc-dev
+sudo apt-get install freetds-dev
+sudo apt-get install tdsodbc
+sudo apt-get install freetds-bin 
+
+> Change freeTDS.conf like this
+
+sudo nano /etc/freetds/freetds.conf
+
+Add a block like this :
+
+[sqlserver]
+      host = 182.172.2.2    # Remote Sql Server's IP addr
+      port = 1433           # this is default
+      tds version = 7.0     # this is by the time i post this
+      instance = Test1      # your Database name 
+
+
+> Then set up the /etc/odbcinst.ini file as follows:
+
+[FreeTDS]
+Description = FreeTDS unixODBC Driver
+Driver = /usr/lib/arm-linux-gnueabihf/odbc/libtdsodbc.so
+Setup = /usr/lib/arm-linux-gnueabihf/odbc/libtdsodbc.so
+UsageCount = 1
+
+> Then setup the /etc/odbc.ini file as follows:
+
+[NAME1]
+Driver = /usr/lib/arm-linux-gnueabihf/odbc/libtdsodbc.so
+Description = MSSQL Server
+Trace = No
+Server = Server2      # IP or host name of the Sql Server
+Database = Test1      # DataBase Name
+Port = 1433           # This is default
+TDS_Version = 7.4
+
+> Now test the connection with this commands (with second one you should get command line access to Sql server
+
+tsql -S sqlserver -U username
+
+Finally if nothing worked try this :
+
+sudo dpkg-reconfigure tdsodbc
