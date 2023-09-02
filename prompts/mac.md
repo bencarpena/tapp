@@ -38,8 +38,9 @@
 |read line number 28| sed '28!d' df_output.csv|
 | find string in multiple files | find . -type f -name "*" -exec grep 'Realm' {} \; |
 | create dynamic link | ln -s /Users/benjcarpena/Library/CloudStorage/OneDrive-Personal OneDrive |
-
-
+| fix cron issues at mac | issue: cron not working, fix is to Go to System Settings > Privacy & Security > Full Disk Access: 
+Click on the (+) icon to add an item to the list.
+Press command+shift+G, type /usr/sbin/cron and press enter:|
 
 		
 		
