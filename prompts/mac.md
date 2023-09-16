@@ -40,6 +40,7 @@
 | create dynamic link | ln -s /Users/benjcarpena/Library/CloudStorage/OneDrive-Personal OneDrive |
 | fix cron issues at mac | issue: cron not working, fix is to Go to System Settings > Privacy & Security > Full Disk Access: Click on the (+) icon to add an item to the list. Press command+shift+G, type /usr/sbin/cron and press enter:|
 | open crontab in mac using nano | `env EDITOR=nano crontab -e`|
+| open file with line numbers | `nl filename.txt` |
 
 		
 		
