@@ -42,6 +42,7 @@
 | open crontab in mac using nano | `env EDITOR=nano crontab -e`|
 | open file with line numbers | `nl filename.txt` |
 | remove multiple folders | `find . -name "F:BARGE*" -print0 | xargs -0 rm -rf`|
+| execute in background | python3 /path/gopaperless.py >> output.log & | 
 		
 		
 		
