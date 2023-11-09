@@ -44,6 +44,7 @@
 | remove multiple folders | `find . -name "F:BARGE*" -print0 | xargs -0 rm -rf`|
 | execute in background | python3 /path/gopaperless.py >> output.log & | 
 | get disk size | df -kh |
+| copy to remote server all directories; remove -r for files | scp -r foldername pi@172.202.77.37 |
 		
 		
 		
