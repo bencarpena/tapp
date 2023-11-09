@@ -241,3 +241,5 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 - login to Raspi
 - go to specific line : Ctrl - then enter line number
 - delete line : Ctrl K
+
+
