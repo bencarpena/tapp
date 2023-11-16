@@ -33,6 +33,9 @@
 ## Check if crontab is running
 systemctl status cron
 
+## Check if apache is running
+systemctl status apache2
+
 
 ## Check CPU speed on raspi
 - Current clock speed: `cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq`
