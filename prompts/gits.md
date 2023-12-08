@@ -126,4 +126,4 @@ git config --global credential.useHttpPath true
 - git commit -m 'message'
 - git remote add origin https://github.com/bencarpena/LRMidland.git
 - git push -u origin main
-> optionalgit push -f origin main
+> optional: git push -f origin main
