@@ -120,9 +120,10 @@ git config --global credential.useHttpPath true
 
 
 ## Add existing folder to git
-cd <localdir>
-git init
-git add .
-git commit -m 'message'
-git remote add origin https://github.com/bencarpena/LRMidland.git
-git push -u origin main
+- cd <localdir>
+- git init
+- git add .
+- git commit -m 'message'
+- git remote add origin https://github.com/bencarpena/LRMidland.git
+- git push -u origin main
+> optionalgit push -f origin main
