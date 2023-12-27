@@ -127,3 +127,8 @@ git config --global credential.useHttpPath true
 - git remote add origin https://github.com/bencarpena/LRMidland.git
 - git push -u origin main
 > optional: git push -f origin main
+
+## Commit to existing branch
+- git checkout -b feature/20231226/api-low-code
+- git add .
+- git commit -m <message>
