@@ -132,3 +132,4 @@ git config --global credential.useHttpPath true
 - git checkout -b feature/20231226/api-low-code
 - git add .
 - git commit -m <message>
+- git push origin feature/20231226/api-low-code
