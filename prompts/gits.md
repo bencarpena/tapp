@@ -129,6 +129,7 @@ git config --global credential.useHttpPath true
 > optional: git push -f origin main
 
 ## Commit to existing branch
+> Scenario: from another data factory, restore the pipelines to another data factory residing in a different tenant
 - git checkout -b feature/20231226/api-low-code
 - git add .
 - git commit -m <message>
