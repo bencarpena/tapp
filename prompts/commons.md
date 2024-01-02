@@ -244,3 +244,7 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 - delete line : Ctrl K
 
 
+# compress / uncompress folder
+- Compress: `tar -czvf LR.tgz LRMidFolder`
+- Uncompress: `tar zxvf LR.tgz`
+
