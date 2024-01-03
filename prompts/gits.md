@@ -130,6 +130,10 @@ git config --global credential.useHttpPath true
 
 ## Commit to existing branch
 > Scenario: from another data factory, restore the pipelines to another data factory residing in a different tenant
+> Copied and pasted invention_ adf folders [dataflow, dataset, linkedService, pipeline, trigger] to dfprod-bo
+> Executed the following git commandline scripts
+> pwd = /Users/benjcarpena/OneDrive/_Projects/Projects/LRMidland_DF/dfprod-bo/dfprod
+
 - git checkout -b feature/20231226/api-low-code
 - git add .
 - git commit -m <message>
