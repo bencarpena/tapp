@@ -145,3 +145,6 @@ git config --global credential.useHttpPath true
 
 ## show remote branch
 - git remote show
+
+## show history of commits and logs
+- git log
