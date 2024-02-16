@@ -143,6 +143,9 @@ git config --global credential.useHttpPath true
 ## show current branch
 - git branch
 
+## show all branches
+- git branch -r
+
 ## show remote branch
 - git remote show
 
