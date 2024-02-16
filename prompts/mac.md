@@ -45,7 +45,7 @@
 | execute in background | python3 /path/gopaperless.py >> output.log & | 
 | get disk size | df -kh |
 | copy to remote server all directories; remove -r for files | scp -r foldername pi@172.202.77.37:/home/. |
-| zip folder | `zip -r zippedfilename.zip foldertozip/`|
+| zip  and compress folder | `zip -r zippedfilename.zip foldertozip/`|
 		
 		
 		
