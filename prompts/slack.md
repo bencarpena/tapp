@@ -25,7 +25,7 @@ Step 7 - fix this error `The server responded with: {'ok': False, 'error': 'not_
     ![alt text](img/xoxb-7.png)
 
 ## Generate access token
-    ![access token](img/generate-access-token.png)
+![alt](img/generate-access-token.png)
 
 
 - References: 
