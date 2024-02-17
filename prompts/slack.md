@@ -3,7 +3,29 @@
 ## Create bot token
 - Go to https://api.slack.com/apps
 
-    ![alt text](img/xoxb-token-generate.png)
+Step 1
+    ![xoxb token](img/xoxb-token-generate.png)
+
+Step 2
+    ![alt text](img/xoxb-2.png)
+
+Step 3
+    ![alt text](img/xoxb-3.png)
+
+Step 4
+    ![alt text](img/xoxb-4.png)
+
+Step 5 -  add scope
+    ![alt text](img/xoxb-5.png)
+
+Step 6 - specify which channel
+    ![alt text](img/xoxb-6.png)
+
+Step 7 - fix this error `The server responded with: {'ok': False, 'error': 'not_in_channel'}`
+    ![alt text](img/xoxb-7.png)
+
+## Generate access token
+    ![access token](img/generate-access-token.png)
 
 
 - References: 
