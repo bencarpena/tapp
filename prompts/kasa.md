@@ -1,6 +1,11 @@
 # Manage kasa devices
 > Documentation here: https://github.com/python-kasa/python-kasa
 
+Installed kasa at:
+- apollo
+- arcturus
+- HERA
+
 ## install
 > Docs: https://pypi.org/project/python-kasa/
 
