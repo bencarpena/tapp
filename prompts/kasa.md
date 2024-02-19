@@ -6,8 +6,16 @@
 
 - Install : `pip3 install python-kasa`
     - Error encountered; needed to install Rust : `curl https://sh.rustup.rs -sSf | sh`
+    - Installed cryptography : `pip install cryptography==3.1.1`
+    - Add to path - https://www.redswitches.com/blog/path-variable-in-linux/#What-is-the-PATH-Variable-in-Linux
+        - Current path is at /home/pi/.local/bin
+        - `pi@alphard:~/.local/bin $ ./kasa`
 
 
+### Fix for path:
+    WARNING: The scripts pip, pip3, pip3.10 and pip3.8 are installed in '/home/pi/.local/bin' which is not on PATH.
+    Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+    
 
 ## discover
 - `kasa discover`
@@ -16,7 +24,7 @@
 - `kasa state`
 
 ## turn on/off
-- Turn on bulb : `kasa --host 10.0.0.161 on`
+- Turn on bulb (bed light): `kasa --host 10.0.0.161 on`
 - Turn off bulb : `kasa --host 10.0.0.161 off`
 
 ## brightness
