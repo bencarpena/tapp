@@ -6,7 +6,8 @@
 
 - Install : `pip3 install python-kasa`
     - Error encountered; needed to install Rust : `curl https://sh.rustup.rs -sSf | sh`
-    - Installed cryptography : `pip install cryptography==3.1.1`
+    - Install cryptography : `pip install cryptography==3.1.1`
+    - Re-run `pip install python-kasa`
     - Add to path - https://www.redswitches.com/blog/path-variable-in-linux/#What-is-the-PATH-Variable-in-Linux
         - Current path is at /home/pi/.local/bin
         - `pi@alphard:~/.local/bin $ ./kasa`
