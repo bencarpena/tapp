@@ -248,3 +248,7 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 - Compress: `tar -czvf LR.tgz LRMidFolder`
 - Uncompress: `tar zxvf LR.tgz`
 
+# compress via zip
+- `zip -r nameofzip.zip foldertozip`
+
+
