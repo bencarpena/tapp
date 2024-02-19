@@ -2,8 +2,11 @@
 > Documentation here: https://github.com/python-kasa/python-kasa
 
 ## install
-- `pip3 install python-kasa`
-- https://pypi.org/project/python-kasa/
+> Docs: https://pypi.org/project/python-kasa/
+
+- Install : `pip3 install python-kasa`
+    - Error encountered; needed to install Rust : `curl https://sh.rustup.rs -sSf | sh`
+
 
 
 ## discover
