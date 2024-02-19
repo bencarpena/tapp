@@ -334,3 +334,7 @@ tsql -S sqlserver -U username
 Finally if nothing worked try this :
 
 sudo dpkg-reconfigure tdsodbc
+
+
+## run command on remote server via ssh
+- `ssh pi@apollo.local -- df -kh`
