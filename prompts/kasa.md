@@ -16,6 +16,14 @@
     WARNING: The scripts pip, pip3, pip3.10 and pip3.8 are installed in '/home/pi/.local/bin' which is not on PATH.
     Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
     
+1. Backup `~/.bashrc` file
+2. `nano ~/.bashrc`
+3. Add to last line `export PATH=$PATH:/home/pi/.local/bin`
+4. Save file
+5. Reload `source ~/.bashrc`
+
+
+![alt text](img/bashrcedit.png)
 
 ## discover
 - `kasa discover`
