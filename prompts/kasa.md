@@ -5,6 +5,8 @@ Installed kasa at:
 - apollo
 - arcturus
 - HERA
+- alphacentauri = errored out
+    - Could not find a version that satisfies the requirement python-kasa (from versions: ); No matching distribution found for python-kasa
 
 ## install
 > Docs: https://pypi.org/project/python-kasa/
