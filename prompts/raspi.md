@@ -338,3 +338,7 @@ sudo dpkg-reconfigure tdsodbc
 
 ## run command on remote server via ssh
 - `ssh pi@apollo.local -- df -kh`
+
+## install rust
+curl https://sh.rustup.rs -sSf | sh
+
