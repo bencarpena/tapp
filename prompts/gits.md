@@ -135,7 +135,7 @@ git config --global credential.useHttpPath true
 > - pwd = /Users/benjcarpena/OneDrive/_Projects/Projects/LRMidland_DF/dfprod-bo/dfprod
 
 - git checkout -b feature/20231226/api-low-code
-- <copy file manually>
+- `copy in-scopen files /folders  manually`
 - git add .
 - git commit -m <message>
 - git push origin feature/20231226/api-low-code
