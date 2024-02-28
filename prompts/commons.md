@@ -251,4 +251,6 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 # compress via zip
 - `zip -r nameofzip.zip foldertozip`
 
+# windows : List all files in directory and subdirectory
+- `dir /s /b /o:gn`
 
