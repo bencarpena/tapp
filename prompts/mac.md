@@ -46,6 +46,8 @@
 | get disk size | df -kh |
 | copy to remote server all directories; remove -r for files | scp -r foldername pi@172.202.77.37:/home/. |
 | zip  and compress folder | `zip -r zippedfilename.zip foldertozip/`|
+| sed (stream editor)| `sed 's/C:\\TEMP\\scripting\\destination\\//g' amendments-transfer-report.txt`|
+
 		
 		
 		
