@@ -33,3 +33,21 @@ dir /b /a-d
   - Parameters: 
   - [Program Script] C:\windows\system32\cmd.exe
   - [Arguments] /C D:\BitsAndGitsEHSS\hungrypython\sureview\automation\ds40101-sureview-us.bat
+
+
+## if exists
+if exist "c:\workspace\" (echo folder exists) else (folder does not exist)
+
+
+## display all files and folders
+tree /F
+
+## copy files on another folder if pattern matched
+`for /f "tokens=*" %a in ('dir /b /s /a-d "F:\DOCS\*230312.a*" ^| findstr /i /r "\\[^\\]*$"') do copy "%a" "destination\LRMidland\230312\Amendment\" /Y`
+
+## find filenames with 'invest' pattern
+`dir /a | findstr /i /r invest`
+
+## find in files 'Copy Deal'
+`dir /a/ | findstr /i /r /c:"Copy Deal" *.json`
+`findstr /i /r /c:"Copy Deal" *.json`
