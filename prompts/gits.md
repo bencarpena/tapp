@@ -128,7 +128,7 @@ git config --global credential.useHttpPath true
 - git push -u origin main
 > optional: git push -f origin main
 
-## Commit to existing branch
+## Commit to existing branch ADF (data factory sample)
 > - Scenario: from another data factory, restore the pipelines to another data factory residing in a different tenant
 > - Copied and pasted invention_ adf folders [dataflow, dataset, linkedService, pipeline, trigger] to dfprod-bo
 > - Executed the following git commandline scripts
@@ -151,3 +151,11 @@ git config --global credential.useHttpPath true
 
 ## show history of commits and logs
 - git log
+
+
+## error RPC 
+- RPC failed; curl 55 LibreSSL SSL_read: LibreSSL/3.3.6: error:1404C3FC:SSL routines:ST_OK:sslv3 alert bad record mac, errno 0
+
+`git config http.postBuffer 524288000`
+
+
