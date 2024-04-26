@@ -173,9 +173,9 @@ git config --global credential.useHttpPath true
 
 ## restore from main
 
-- cd ~/git/your-repo/
-- git checkout `new-dev-branch`
-- git reset --hard main
+cd ~/git/your-repo/
+git checkout `new-dev-branch`
 
+git reset --hard main
 
 git push --force
