@@ -162,7 +162,7 @@ git config --global credential.useHttpPath true
 ## restore previous commits
 cd ~/git/your-repo-root
 git log
-# find the commit id you want
+find the commit id you want
 git checkout `commitId` .
 
 > Important note: the trailing . in the previous line is important! If you omit it, you will end up in a "detached HEAD" state, which you do not want here.
