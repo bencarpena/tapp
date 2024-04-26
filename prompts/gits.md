@@ -169,3 +169,10 @@ git checkout `commitId` .
 
 git commit -m "Restoring old source code"
 
+
+
+## restore from main
+cd ~/git/your-repo/
+git checkout `new-dev-branch`
+git reset --hard main
+git push --force
