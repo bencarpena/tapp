@@ -254,3 +254,12 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 # windows : List all files in directory and subdirectory
 - `dir /s /b /o:gn`
 
+# Hagrid data clean-up
+> Sometimes sensors go awry. Need to clean up raw data at alphacentauri > hagrid.log 
+
+### Scenario: Delete 63163 and 63182 lines at hagrid.log
+1. Make a backup of hagrid.log
+2. Look for incorrect data using `grep -nra "Temperature : 1" hagrid.log`
+3. Ctrl + Shift _ to go to line
+4. Ctrl K to delete
+5. Save file
