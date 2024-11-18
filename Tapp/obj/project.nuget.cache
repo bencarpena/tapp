@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nD0BbDhV6e8DFyp2unJF0eV3nRkMXy9rlwtqyqAn1e33/qWjR8czgjYKeTIBdVaBm8Z9eLIefFYrxxkzpOomvg==",
+  "dgSpecHash": "Zdhfzf3fkdvAGWBsG4vq4W/ldInD9hi+wC7MNS8nTycSqQchxM0c5N8ojwCxUNSc+kvEPcUKaAOpE/4EpQsJ0w==",
   "success": true,
-  "projectFilePath": "/Users/bencarpena/OneDrive/_Projects/Projects/tapp/Tapp/Tapp.csproj",
+  "projectFilePath": "/Users/benjcarpena/Library/CloudStorage/OneDrive-Personal/_Projects/Projects/tapp/Tapp/Tapp.csproj",
   "expectedPackageFiles": [
-    "/Users/bencarpena/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/bencarpena/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
-    "/Users/bencarpena/.nuget/packages/xamarin.forms/3.1.0.697729/xamarin.forms.3.1.0.697729.nupkg.sha512"
+    "/Users/benjcarpena/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/benjcarpena/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/benjcarpena/.nuget/packages/xamarin.forms/3.1.0.697729/xamarin.forms.3.1.0.697729.nupkg.sha512"
   ],
   "logs": []
 }

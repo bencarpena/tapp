@@ -29,14 +29,22 @@
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
-          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
-          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "build": {
           "build/netstandard2.0/Xamarin.Forms.props": {},
@@ -348,19 +356,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/bencarpena/.nuget/packages/": {}
+    "/Users/benjcarpena/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bencarpena/OneDrive/_Projects/Projects/tapp/Tapp/Tapp.csproj",
+      "projectUniqueName": "/Users/benjcarpena/Library/CloudStorage/OneDrive-Personal/_Projects/Projects/tapp/Tapp/Tapp.csproj",
       "projectName": "Tapp",
-      "projectPath": "/Users/bencarpena/OneDrive/_Projects/Projects/tapp/Tapp/Tapp.csproj",
-      "packagesPath": "/Users/bencarpena/.nuget/packages/",
-      "outputPath": "/Users/bencarpena/OneDrive/_Projects/Projects/tapp/Tapp/obj/",
+      "projectPath": "/Users/benjcarpena/Library/CloudStorage/OneDrive-Personal/_Projects/Projects/tapp/Tapp/Tapp.csproj",
+      "packagesPath": "/Users/benjcarpena/.nuget/packages/",
+      "outputPath": "/Users/benjcarpena/Library/CloudStorage/OneDrive-Personal/_Projects/Projects/tapp/Tapp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bencarpena/.nuget/NuGet/NuGet.Config"
+        "/Users/benjcarpena/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -401,11 +409,12 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
       }
     }
   }

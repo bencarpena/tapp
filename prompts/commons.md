@@ -263,3 +263,9 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 3. Ctrl + Shift _ to go to line
 4. Ctrl K to delete
 5. Save file
+
+
+# Add user at raspi
+`sudo adduser new_user_name`
+> Add sudo privileges (optional)
+`sudo usermod -aG sudo new_user_name`
