@@ -1,0 +1,482 @@
+Discovering devices on 255.255.255.255 for 10 seconds
+== Po - KL130(US) ==
+Host: 10.0.0.129
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:36-06:00 (tz: CST6CDT)
+Hardware:     3.0
+Software:     1.0.13 Build 220714 Rel.162126
+MAC (rssi):   b0:a7:b9:43:b4:86 (-40)
+
+== Primary features ==
+State (state): False
+Current consumption (current_consumption): 0.0 W
+Brightness (brightness): 100 (range: 0-100)
+Color temperature (color_temperature): 5450 (range: 2500-9000)
+
+== Information ==
+Today's consumption (consumption_today): 0.014 kWh
+This month's consumption (consumption_this_month): 2.86 kWh
+Total consumption since reboot (consumption_total): 0.001 kWh
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+HSV (hsv): HSV(hue=0, saturation=0, value=100)
+Light preset (light_preset): *Not set* Light preset 1 Light preset 2 Light preset 3 Light preset 4
+
+== Debug ==
+RSSI (rssi): -40 dBm
+Reboot (reboot): <Action>
+
+== Shifu - KL130(US) ==
+Host: 10.0.0.16
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:34-06:00 (tz: CST6CDT)
+Hardware:     3.0
+Software:     1.0.13 Build 220714 Rel.162126
+MAC (rssi):   b0:a7:b9:03:19:aa (-38)
+
+== Primary features ==
+State (state): False
+Current consumption (current_consumption): 0.0 W
+Brightness (brightness): 100 (range: 0-100)
+Color temperature (color_temperature): 5450 (range: 2500-9000)
+
+== Information ==
+Today's consumption (consumption_today): 0.104 kWh
+This month's consumption (consumption_this_month): 3.035 kWh
+Total consumption since reboot (consumption_total): 0.003 kWh
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+HSV (hsv): HSV(hue=0, saturation=0, value=100)
+Light preset (light_preset): *Not set* Light preset 1 Light preset 2 Light preset 3 Light preset 4
+
+== Debug ==
+RSSI (rssi): -38 dBm
+Reboot (reboot): <Action>
+
+== miniplug2 - EP10(US) ==
+Host: 10.0.0.87
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:33-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.0.5 Build 221021 Rel.183404
+MAC (rssi):   60:83:E7:09:75:0F (-42)
+
+== Primary features ==
+State (state): False
+
+== Information ==
+On since (on_since): None
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -42 dBm
+Reboot (reboot): <Action>
+
+== Attic plug - HS103(US) ==
+Host: 10.0.0.59
+Port: 9999
+Device state: True
+Time:         2024-11-26 11:08:32-06:00 (tz: CST6CDT)
+Hardware:     5.0
+Software:     1.0.8 Build 221011 Rel.195515
+MAC (rssi):   00:31:92:3C:24:F6 (-43)
+
+== Primary features ==
+State (state): True
+
+== Information ==
+On since (on_since): 2024-11-22 12:33:50-06:00
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -43 dBm
+Reboot (reboot): <Action>
+
+== Power wall - HS103(US) ==
+Host: 10.0.0.152
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:31-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.5.7 Build 191114 Rel.105922
+MAC (rssi):   D8:0D:17:2A:E3:15 (-30)
+
+== Primary features ==
+State (state): False
+
+== Information ==
+On since (on_since): None
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -30 dBm
+Reboot (reboot): <Action>
+
+== miniplug1 - EP10(US) ==
+Host: 10.0.0.37
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:33-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.0.5 Build 221021 Rel.183404
+MAC (rssi):   60:83:E7:09:5F:BF (-49)
+
+== Primary features ==
+State (state): False
+
+== Information ==
+On since (on_since): None
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -49 dBm
+Reboot (reboot): <Action>
+
+== TP-LINK_Smart Plug_B883 - EP40(US) ==
+Host: 10.0.0.233
+Port: 9999
+Device state: True
+Time:         2024-11-26 11:08:32-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.0.2 Build 210105 Rel.165938
+MAC (rssi):   1C:61:B4:83:B8:83 (-54)
+
+== Primary features ==
+State (state): True
+
+== Information ==
+On since (on_since): 2024-11-24 13:35:05-06:00
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -54 dBm
+Reboot (reboot): <Action>
+
+== Children ==
+
+	== Hagrid (Socket for EP40(US)) ==
+
+	== Primary features ==
+	State (state): True
+
+	== Information ==
+	On since (on_since): 2024-11-24 13:35:05-06:00
+
+	== Configuration ==
+
+	== Debug ==
+
+	== Dumbledoore (Socket for EP40(US)) ==
+
+	== Primary features ==
+	State (state): False
+
+	== Information ==
+	On since (on_since): None
+
+	== Configuration ==
+
+	== Debug ==
+
+
+== Garage Power - HS103(US) ==
+Host: 10.0.0.3
+Port: 9999
+Device state: True
+Time:         2024-11-26 11:08:36-06:00 (tz: CST6CDT)
+Hardware:     5.0
+Software:     1.0.8 Build 221011 Rel.195515
+MAC (rssi):   00:31:92:3C:31:AB (-52)
+
+== Primary features ==
+State (state): True
+
+== Information ==
+On since (on_since): 2024-11-24 01:24:06-06:00
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -52 dBm
+Reboot (reboot): <Action>
+
+== Bed light - LB100(US) ==
+Host: 10.0.0.161
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:36-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.8.11 Build 191113 Rel.105336
+MAC (rssi):   50:c7:bf:84:3f:1a (-48)
+
+== Primary features ==
+State (state): False
+Current consumption (current_consumption): 0.0 W
+Brightness (brightness): 2 (range: 0-100)
+
+== Information ==
+Today's consumption (consumption_today): 0.001 kWh
+This month's consumption (consumption_this_month): 0.803 kWh
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+Light preset (light_preset): *Not set* Light preset 1 Light preset 2 Light preset 3 Light preset 4
+
+== Debug ==
+RSSI (rssi): -48 dBm
+Reboot (reboot): <Action>
+
+== Castle Front - LB100(US) ==
+Host: 10.0.0.191
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:36-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.8.11 Build 191113 Rel.105336
+MAC (rssi):   50:c7:bf:90:64:9d (-72)
+
+== Primary features ==
+State (state): False
+Current consumption (current_consumption): 0.0 W
+Brightness (brightness): 100 (range: 0-100)
+
+== Information ==
+Today's consumption (consumption_today): 0.055 kWh
+This month's consumption (consumption_this_month): 2.758 kWh
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+Light preset (light_preset): Not set *Light preset 1* Light preset 2 Light preset 3 Light preset 4
+
+== Debug ==
+RSSI (rssi): -72 dBm
+Reboot (reboot): <Action>
+
+== Groot - HS103(US) ==
+Host: 10.0.0.106
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:37-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.5.7 Build 191114 Rel.105922
+MAC (rssi):   D8:0D:17:2A:EA:B2 (-60)
+
+== Primary features ==
+State (state): False
+
+== Information ==
+On since (on_since): None
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -60 dBm
+Reboot (reboot): <Action>
+
+== Gamebred - LB130(US) ==
+Host: 10.0.0.90
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:36-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.8.11 Build 191113 Rel.105336
+MAC (rssi):   50:c7:bf:bf:bc:61 (-72)
+
+== Primary features ==
+State (state): False
+Current consumption (current_consumption): 0.0 W
+Brightness (brightness): 1 (range: 0-100)
+Color temperature (color_temperature): 0 (range: 2500-9000)
+
+== Information ==
+Today's consumption (consumption_today): 0.0 kWh
+This month's consumption (consumption_this_month): 0.758 kWh
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+HSV (hsv): HSV(hue=60, saturation=50, value=1)
+Light preset (light_preset): *Not set* Light preset 1 Light preset 2 Light preset 3 Light preset 4
+
+== Debug ==
+RSSI (rssi): -72 dBm
+Reboot (reboot): <Action>
+
+== alpha - HS105(US) ==
+Host: 10.0.0.127
+Port: 9999
+Device state: True
+Time:         2024-11-26 11:08:37-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.5.6 Build 191114 Rel.104204
+MAC (rssi):   AC:84:C6:F6:4F:2C (-61)
+
+== Primary features ==
+State (state): True
+
+== Information ==
+On since (on_since): 2024-11-26 05:55:02-06:00
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -61 dBm
+Reboot (reboot): <Action>
+
+== work plug - HS100(US) ==
+Host: 10.0.0.135
+Port: 9999
+Device state: True
+Time:         2024-11-26 11:08:38-06:00 (tz: CST6CDT)
+Hardware:     1.0
+Software:     1.2.6 Build 200727 Rel.120528
+MAC (rssi):   50:C7:BF:5A:38:AF (-73)
+
+== Primary features ==
+State (state): True
+
+== Information ==
+On since (on_since): 2024-09-05 21:20:49-05:00
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -73 dBm
+Reboot (reboot): <Action>
+
+== Monkey - KL130(US) ==
+Host: 10.0.0.220
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:47-06:00 (tz: CST6CDT)
+Hardware:     3.0
+Software:     1.0.13 Build 220714 Rel.162126
+MAC (rssi):   e8:48:b8:14:46:9b (-50)
+
+== Primary features ==
+State (state): False
+Current consumption (current_consumption): 0.0 W
+Brightness (brightness): 100 (range: 0-100)
+Color temperature (color_temperature): 5205 (range: 2500-9000)
+
+== Information ==
+Today's consumption (consumption_today): 0.0 kWh
+This month's consumption (consumption_this_month): 0.353 kWh
+Total consumption since reboot (consumption_total): 0.051 kWh
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+HSV (hsv): HSV(hue=0, saturation=0, value=100)
+Light preset (light_preset): *Not set* Light preset 1 Light preset 2 Light preset 3 Light preset 4
+
+== Debug ==
+RSSI (rssi): -50 dBm
+Reboot (reboot): <Action>
+
+== TP-LINK_Smart Plug_8245 - KP400(US) ==
+Host: 10.0.0.244
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:37-06:00 (tz: CST6CDT)
+Hardware:     2.0
+Software:     1.0.7 Build 210428 Rel.080330
+MAC (rssi):   00:5F:67:E3:82:45 (-66)
+
+== Primary features ==
+State (state): False
+
+== Information ==
+On since (on_since): None
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+LED (led): True
+
+== Debug ==
+RSSI (rssi): -66 dBm
+Reboot (reboot): <Action>
+
+== Children ==
+
+	== Olaf (Socket for KP400(US)) ==
+
+	== Primary features ==
+	State (state): False
+
+	== Information ==
+	On since (on_since): None
+
+	== Configuration ==
+
+	== Debug ==
+
+	== blitzen (Socket for KP400(US)) ==
+
+	== Primary features ==
+	State (state): False
+
+	== Information ==
+	On since (on_since): None
+
+	== Configuration ==
+
+	== Debug ==
+
+
+== Ping - KL130(US) ==
+Host: 10.0.0.73
+Port: 9999
+Device state: False
+Time:         2024-11-26 11:08:38-06:00 (tz: CST6CDT)
+Hardware:     3.0
+Software:     1.0.13 Build 220714 Rel.162126
+MAC (rssi):   b0:a7:b9:43:9e:32 (-54)
+
+== Primary features ==
+State (state): False
+Current consumption (current_consumption): 0.0 W
+Brightness (brightness): 100 (range: 0-100)
+Color temperature (color_temperature): 5205 (range: 2500-9000)
+
+== Information ==
+Today's consumption (consumption_today): 0.0 kWh
+This month's consumption (consumption_this_month): 0.355 kWh
+Total consumption since reboot (consumption_total): 0.057 kWh
+Cloud connection (cloud_connection): True
+
+== Configuration ==
+HSV (hsv): HSV(hue=0, saturation=0, value=100)
+Light preset (light_preset): *Not set* Light preset 1 Light preset 2 Light preset 3 Light preset 4
+
+== Debug ==
+RSSI (rssi): -54 dBm
+Reboot (reboot): <Action>
+
+Found 17 devices
