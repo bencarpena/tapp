@@ -260,6 +260,7 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 ### Scenario: Delete 63163 and 63182 lines at hagrid.log
 1. Make a backup of hagrid.log
 2. Look for incorrect data using `grep -nra "Temperature : 1" hagrid.log`
+	- `more hagrid.log | grep -nra "Temperature : 1" | grep "2024-1" | more`
 3. Ctrl + Shift _ to go to line
 4. Ctrl K to delete
 5. Save file
