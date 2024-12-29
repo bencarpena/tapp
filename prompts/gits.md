@@ -180,3 +180,9 @@ git checkout `new-dev-branch`
 git reset --hard main
 
 git push --force
+
+## error: RPC failed; curl 56 GnuTLS recv error (-9): A TLS packet with unexpected length was received.
+> Cause: commits too big
+
+`git clone <repo> --depth=1`
+
