@@ -270,3 +270,6 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 `sudo adduser new_user_name`
 > Add sudo privileges (optional)
 `sudo usermod -aG sudo new_user_name`
+
+# line count
+`more hagrid.log | wc -l`
