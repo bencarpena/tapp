@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = Tapp
 build_property.ProjectDir = /Users/benjcarpena/Library/CloudStorage/OneDrive-Personal/_Projects/Projects/tapp/Tapp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
