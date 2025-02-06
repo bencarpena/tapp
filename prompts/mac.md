@@ -47,7 +47,7 @@
 | copy to remote server all directories; remove -r for files | scp -r foldername pi@172.202.77.37:/home/. |
 | zip  and compress folder | `zip -r zippedfilename.zip foldertozip/`|
 | sed (stream editor)| `sed 's/C:\\TEMP\\scripting\\destination\\//g' amendments-transfer-report.txt`|
-| go to specific line sed | `sed -n '7543p' file.csv |
+| go to specific line sed (faster)| `sed -n '7543p' file.csv |
 | go to specific line grep | grep -n '' file.csv | grep "^7543:" |
 | go to specific line awk | awk 'NR==7543' file.csv |
 
