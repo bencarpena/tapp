@@ -51,3 +51,7 @@ tree /F
 ## find in files 'Copy Deal'
 `dir /a/ | findstr /i /r /c:"Copy Deal" *.json`
 `findstr /i /r /c:"Copy Deal" *.json`
+
+## create a new blank file
+`type null > filename.txt`
+`notepad filename.txt`
