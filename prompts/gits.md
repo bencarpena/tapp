@@ -186,3 +186,8 @@ git push --force
 
 `git clone <repo> --depth=1`
 
+
+## upgrade git
+- Check version of git `git --version` 
+- Update brew `brew update`
+- Upgrade git `brew upgrade git`
