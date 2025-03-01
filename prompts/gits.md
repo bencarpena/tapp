@@ -191,3 +191,7 @@ git push --force
 - Check version of git `git --version` 
 - Update brew `brew update`
 - Upgrade git `brew upgrade git`
+- `which git`
+- Make sure it is pointing to homebrew-installed version
+   - Place this at .zshrc `export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"` using `nano`
+   - Run this to refresh `source ~/.zshrc`
