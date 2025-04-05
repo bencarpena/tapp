@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f09a7ca2e6bde5881e329c16dbe03e3cece9ad7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8de4db5f5f2424ce98a9beacd3b66f540034aa30")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

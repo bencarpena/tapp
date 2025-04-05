@@ -273,3 +273,7 @@ sudo nohup python3 /home/wizards/thegoods/BitsAndGitsEHSS/hungrypython/sureview/
 
 # line count
 `more hagrid.log | wc -l`
+
+# test python package
+sudo python3 -m pip install slack_sdk
+python3 -c "from slack_sdk import WebClient; print('Slack SDK is working ✅')"
