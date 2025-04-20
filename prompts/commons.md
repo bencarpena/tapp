@@ -95,7 +95,7 @@
 
 
 ##	scp (secure copy)
-- `scp pi@192.168.1.22:/home/pi/media/us1.jpg .` (copies file from .22 host to local)
+- `scp 'pi@192.168.1.22:/home/pi/media/*.jpg' .` (copies jpg files from .22 host to local)
 - `scp me.jpg pi@altair.local:/home/pi/media/.`
 - SCP entire folder: `scp -r ./LRMidland benstewart@172.202.77.37:/home/benstewart/Projects/`
 
