@@ -282,3 +282,6 @@ python3 -c "from slack_sdk import WebClient; print('Slack SDK is working ✅')"
 # open file starting at certain line number 
 > display line number as well
 `sed -n '5544, $p' hagrid.log | cat -n | more`
+
+# display last 10 lines of file
+`tail -n 10 hagrid.log`
