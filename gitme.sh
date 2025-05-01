@@ -7,5 +7,5 @@ echo "Commit tag: $dt"
 echo "=================================="
 
 git add .
-git commit -m $dt
+git commit -m "🚀 $dt"
 git push origin master
