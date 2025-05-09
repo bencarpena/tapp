@@ -285,3 +285,6 @@ python3 -c "from slack_sdk import WebClient; print('Slack SDK is working ✅')"
 
 # display last 10 lines of file
 `tail -n 10 hagrid.log`
+
+# Install libraries at managed python build
+`/opt/homebrew/bin/python3 -m pip install requests_oauthlib --break-system-packages`
