@@ -51,6 +51,11 @@
 | go to specific line grep | grep -n '' file.csv | grep "^7543:" |
 | go to specific line awk | awk 'NR==7543' file.csv |
 
+## Get memory size
+
+- `vm_stat`
+- `sysctl hw.memsize | awk '{printf "%.2f GB\n", $2/1073741824}'`
+- `sysctl hw.memsize`
 		
 		
 		
