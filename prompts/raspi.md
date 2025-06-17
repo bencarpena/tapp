@@ -342,3 +342,7 @@ sudo dpkg-reconfigure tdsodbc
 ## install rust
 curl https://sh.rustup.rs -sSf | sh
 
+## kill a remote session
+
+1. `w`
+2. `pkill -t pts/1`
