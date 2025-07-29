@@ -58,4 +58,6 @@
 - `sysctl hw.memsize`
 		
 		
-		
+## list only directories
+
+- `ls -l | grep '^d'`
