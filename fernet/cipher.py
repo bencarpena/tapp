@@ -55,7 +55,12 @@ def main():
         print("❌ Error: mode must be 'encrypt' or 'decrypt'.", file=sys.stderr)
         sys.exit(1)
 
-    text_or_token = input("🚀 Enter text to encrypt or token to decrypt: ").strip()
+    # Dynamic prompt based on mode
+    if mode == "encrypt":
+        text_or_token = input("🚀 Enter text to encrypt: ").strip()
+    else:
+        text_or_token = input("📜 Enter token to decrypt: ").strip()
+
     code = getpass.getpass("🤖 Enter secret code: ")
 
     try:
