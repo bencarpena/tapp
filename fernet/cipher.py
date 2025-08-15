@@ -36,7 +36,7 @@ def decrypt_string(token: str, code: str) -> str:
         plaintext = f.decrypt(token.encode("utf-8"))
         return plaintext.decode("utf-8")
     except InvalidToken as e:
-        raise ValueError("❌ Decryption failed: invalid token or wrong code.") from e
+        raise ValueError("Decryption failed: invalid token or wrong code.") from e
 
 def main():
     print(BANNER)
@@ -44,8 +44,8 @@ def main():
     if len(sys.argv) != 2:
         print(
             "🔐 Usage:\n"
-            "  python cipher.py encrypt\n"
-            "  python cipher.py decrypt",
+            "     python3 cipher.py encrypt\n"
+            "     python3 cipher.py decrypt",
             file=sys.stderr
         )
         sys.exit(1)
@@ -63,9 +63,9 @@ def main():
             out = encrypt_string(text_or_token, code)
         else:
             out = decrypt_string(text_or_token, code)
-        print(f"\nResult:\n{out}")
+        print(f"\n✅ Result:\n{out}\n")
     except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
+        print(f"❌ Error: {e}", file=sys.stderr)
         sys.exit(1)
 
 if __name__ == "__main__":
