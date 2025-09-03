@@ -50,6 +50,7 @@
 | go to specific line sed (faster)| `sed -n '7543p' file.csv |
 | go to specific line grep | grep -n '' file.csv | grep "^7543:" |
 | go to specific line awk | awk 'NR==7543' file.csv |
+| grep two strings | grep -nra -e "HFUB219" -e "1010054715" *.csv --with-filename >> ../anomaly4-ownervaluenull.csv |
 
 ## Get memory size
 
