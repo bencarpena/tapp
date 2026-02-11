@@ -295,3 +295,7 @@ python3 -c "from slack_sdk import WebClient; print('Slack SDK is working ✅')"
 python3 -m venv path/to/venv
 source path/to/venv/bin/activate
 python3 -m pip install rich
+
+```bash
+python3 -m venv path/to/venv
+```
