@@ -288,3 +288,10 @@ python3 -c "from slack_sdk import WebClient; print('Slack SDK is working ✅')"
 
 # Install libraries at managed python build
 `/opt/homebrew/bin/python3 -m pip install requests_oauthlib --break-system-packages`
+
+
+# install via pip3 in managed environment
+
+`python3 -m venv path/to/venv`
+`source path/to/venv/bin/activate`
+`python3 -m pip install rich`
