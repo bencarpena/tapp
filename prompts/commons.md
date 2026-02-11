@@ -298,3 +298,8 @@ source path/to/venv/bin/activate
 python3 -m pip install rich
 ```
 
+OR
+
+```bash
+brew install rich
+```
