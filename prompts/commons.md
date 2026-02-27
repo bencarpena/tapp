@@ -303,3 +303,12 @@ OR
 ```bash
 brew install rich
 ```
+
+
+# get cpu info and 32 bit and 64 bit info
+
+- OS : `cat /etc/os-release`
+- HW : `getconf LONG_BIT`
+- HW : `uname -a` or `uname -m`
+- HW : `cat /proc/cpuinfo`
+- HW : `free -h`
