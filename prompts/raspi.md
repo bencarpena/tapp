@@ -346,3 +346,13 @@ curl https://sh.rustup.rs -sSf | sh
 
 1. `w`
 2. `pkill -t pts/1`
+
+
+
+## get cpu info and 32 bit and 64 bit info
+
+- OS : `cat /etc/os-release`
+- HW : `getconf LONG_BIT`
+- HW : `uname -a` or `uname -m`
+- HW : `cat /proc/cpuinfo`
+- HW : `free -h`
