@@ -25,7 +25,10 @@ def run_git(args):
         result = subprocess.run(["git"] + args, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        print(f"❌ Git Error: {e.stderr}")
+        error_msg = e.stderr.strip() if e.stderr else f"(Return code {e.returncode})"
+        if args[0] == "config" and args[1] == "user.email" and e.returncode == 1:
+            error_msg = "Git user.email is not set. Please run: git config user.email your@email.com"
+        print(f"❌ Git Error: {error_msg}")
         sys.exit(1)
 
 def get_timestamp_string():
@@ -57,9 +60,9 @@ def main():
 
     # 3. Generate Commit Message
     timestamp = get_timestamp_string()
-    base_msg = f"commit tag {timestamp}"
+    base_msg = f"commit tag 🚦 {timestamp}"
     user_comment = " ".join(sys.argv[1:])
-    final_msg = f"{base_msg} - {user_comment}" if user_comment else base_msg
+    final_msg = f"🚦 {base_msg} - {user_comment}" if user_comment else base_msg
 
     # 4. Automate Workflow
     print(f"--- Workspace: {workspace_type.upper()} ---")
@@ -70,10 +73,11 @@ def main():
     
     print("✅ Local commit successful. Pushing to GitHub...")
     
-    # Directly push without asking
-    run_git(["push"])
+    # Dynamically find the current branch to support main or master
+    current_branch = run_git(["rev-parse", "--abbrev-ref", "HEAD"])
+    run_git(["push", "origin", current_branch])
     
-    print(f"🚀 Successfully pushed to {CONFIG_MAP[workspace_type]['alias']}!")
+    print(f"🚀 Successfully pushed {current_branch} to {CONFIG_MAP[workspace_type]['alias']}!")
 
 if __name__ == "__main__":
     main()
