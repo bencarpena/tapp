@@ -1,4 +1,5 @@
 # GitHub Account Setup (Workspace)
+> setup done at mac mini : ALFRED
 
 This workspace is configured to manage two separate GitHub accounts: **main** (`bencarpena`) and **play** (`alfredsilvertonai`).
 
@@ -46,6 +47,7 @@ cd /Users/gojo/Workspace/main
 # 2. Clone using the custom host (DO NOT add a dot at the end)
 git clone git@github.com-bencarpena:bencarpena/<repo-name>.git
 git clone git@github.com-bencarpena:bencarpena/tapp.git
+git clone git@github.com-bencarpena:bencarpena/gems.git
 ```
 
 ### For the `play` folder (alfredsilvertonai):
