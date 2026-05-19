@@ -195,3 +195,9 @@ git push --force
 - Make sure it is pointing to homebrew-installed version
    - Place this at .zshrc `export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"` using `nano`
    - Run this to refresh `source ~/.zshrc`
+
+## show previous version of file committed
+
+`cd /Users/bcc/Workspace/qcs-payment-engine/qcs-data`
+
+`git show de74cad:qcs-data/01-BOLO/HAZELTREE-PAYMENT-ENGINE/PAYEE/bulk-update-payload.py`
