@@ -62,3 +62,99 @@
 ## list only directories
 
 - `ls -l | grep '^d'`
+
+
+## ----------------------------------------
+## macOS Memory Monitoring Cheat Sheet
+## ----------------------------------------
+
+
+## Memory & System Commands
+
+| Purpose | Command | Description |
+|---------|---------|-------------|
+| Quick memory summary | `top -l 1 \| grep PhysMem` | Shows RAM used, wired, compressed, and unused memory. |
+| Installed RAM | `sysctl -n hw.memsize` | Displays total installed RAM in bytes. |
+| Installed RAM (GB) | `echo "$(($(sysctl -n hw.memsize)/1024/1024/1024)) GB"` | Displays installed RAM in gigabytes. |
+| Virtual memory statistics | `vm_stat` | Displays page-level virtual memory statistics. |
+| Memory pressure | `memory_pressure` | Reports current memory pressure and compression activity. |
+| Swap usage | `sysctl vm.swapusage` | Shows total, used, and free swap space. |
+| Live system monitor | `top` | Interactive system monitor. Press **q** to quit. |
+| Sort live processes by memory | `top -o mem` | Interactive process list sorted by memory usage. |
+| One-time memory snapshot | `top -l 1 -o mem` | Takes a single snapshot sorted by memory usage. |
+| Memory snapshot (custom columns) | `top -l 1 -o mem -stats pid,command,mem,cpu` | Displays PID, command, memory, and CPU usage. |
+
+---
+
+## Process Analysis
+
+| Purpose | Command | Description |
+|---------|---------|-------------|
+| Top 20 processes by RSS | `ps -axo pid,comm,rss \| sort -nrk3 \| head -20` | Shows the largest resident memory consumers. |
+| Top 30 processes by % Memory | `ps -axo pid,%mem,rss,command \| sort -nrk2 \| head -30` | Displays memory percentage, RSS, and full command. |
+| Top processes (ps aux) | `ps aux \| sort -nrk4 \| head -20` | Lists processes sorted by memory usage. |
+| Search for a process | `ps aux \| grep <process>` | Find running processes by name. |
+| Count running processes | `ps -A \| wc -l` | Displays total number of running processes. |
+
+---
+
+## CPU & Load
+
+| Purpose | Command | Description |
+|---------|---------|-------------|
+| System load averages | `uptime` | Displays uptime and CPU load averages. |
+| Top CPU consumers | `ps aux \| sort -nrk3 \| head -20` | Lists processes using the most CPU. |
+
+---
+
+## Hardware Information
+
+| Purpose | Command | Description |
+|---------|---------|-------------|
+| Hardware summary | `system_profiler SPHardwareDataType` | Displays hardware information. |
+| Memory hardware details | `system_profiler SPMemoryDataType` | Shows installed memory modules. |
+| macOS version | `sw_vers` | Displays macOS version information. |
+
+---
+
+## Disk & Swap
+
+| Purpose | Command | Description |
+|---------|---------|-------------|
+| Filesystem usage | `df -h` | Displays disk usage in human-readable format. |
+| Largest directories | `du -sh * \| sort -h` | Lists directories sorted by size. |
+
+---
+
+## Process Management
+
+| Purpose | Command | Description |
+|---------|---------|-------------|
+| Open Activity Monitor | `open -a "Activity Monitor"` | Launches Activity Monitor. |
+| View open files for a PID | `lsof -p <PID>` | Displays files opened by a process. |
+| Gracefully terminate a process | `kill <PID>` | Sends SIGTERM to a process. |
+| Force terminate a process | `kill -9 <PID>` | Sends SIGKILL to a process. |
+
+---
+
+# Interpreting Memory Metrics
+
+| Metric | Healthy | Moderate | High Pressure |
+|--------|---------|----------|---------------|
+| Unused RAM | Several GB | 1–2 GB | Less than 1 GB |
+| Compressed Memory | < 5 GB | 5–10 GB | > 10 GB |
+| Swap Usage | 0 GB | 1–3 GB | > 5 GB |
+| Memory Pressure | Green | Yellow | Red |
+
+---
+
+# Recommended Diagnostic Workflow
+
+| Step | Command | Purpose |
+|------|---------|---------|
+| 1 | `top -l 1 \| grep PhysMem` | Check current memory usage. |
+| 2 | `sysctl vm.swapusage` | Determine swap usage. |
+| 3 | `memory_pressure` | Check memory pressure. |
+| 4 | `ps -axo pid,%mem,rss,command \| sort -nrk2 \| head -30` | Identify top memory consumers. |
+| 5 | `uptime` | Check CPU load averages. |
+| 6 | `echo "$(($(sysctl -n hw.memsize)/1024/1024/1024)) GB"` | Verify installed RAM. |
