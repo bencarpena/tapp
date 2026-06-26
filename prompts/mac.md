@@ -70,6 +70,7 @@
 
 
 ## Memory & System Commands
+> `top -l 1 | grep PhysMem`
 
 | Purpose | Command | Description |
 |---------|---------|-------------|
